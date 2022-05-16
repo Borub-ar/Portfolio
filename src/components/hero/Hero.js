@@ -1,12 +1,14 @@
-import classes from './Hero.module.css';
+import classes from "./Hero.module.css";
+import HeroNav from "./HeroNav";
 
 const Hero = () => {
   return (
     <div className={classes.hero}>
-        <h1 className={classes.title}>Kacper Barabasz</h1>
-        <p className={classes.sub_header}>Front-end Developer</p>
+      <h1 className={classes.title}>Kacper Barabasz</h1>
+      <p className={classes.sub_header}>Junior Front-end Developer</p>
+      <HeroNav />
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
