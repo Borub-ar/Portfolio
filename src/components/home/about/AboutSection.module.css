@@ -4,5 +4,11 @@
 }
 
 .dot {
-    color: var(--main-light-blue);
+  color: var(--main-light-blue);
+}
+
+.about_me {
+  color: var(--main-text-color);
+  width: 50vw;
+  font-size: 1.55rem;
 }
