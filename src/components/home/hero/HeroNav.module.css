@@ -3,9 +3,9 @@
   margin-top: 2rem;
   text-align: center;
   font-size: 2.3rem;
-  color: white;
+  color: var(--main-text-color);
 }
 
 .slash {
-  color: rgb(72, 210, 245);
+  color: var(--main-light-blue);
 }

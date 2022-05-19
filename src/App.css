@@ -1,3 +1,8 @@
+:root {
+  --main-light-blue: rgb(72, 210, 245);
+  --main-text-color: rgb(255, 255, 255);
+}
+
 *,
 *::after,
 *::before {
@@ -8,8 +13,12 @@
 
 body,
 html {
-font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: rgb(20, 20, 20);
+}
+
+body {
+  padding: 1rem 2rem;
 }
 
 ::selection {

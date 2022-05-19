@@ -15,7 +15,7 @@ label {
 label div {
   width: 6px;
   height: 6px;
-  background-color: #ffffff;
+  background-color: var(--main-text-color);
   margin-left: 0;
   margin-bottom: 6px;
   border-radius: 4px;
@@ -44,5 +44,5 @@ label div:last-child {
   width: 6px;
   margin-left: 12px;
   margin-bottom: 3px;
-  background-color: #39cfd4;
+  background-color: var(--main-light-blue);
 }
