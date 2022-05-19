@@ -9,6 +9,10 @@
   padding: 3rem 2rem;
 }
 
-p {
-  color: white;
+.icon {
+  color: rgb(255, 255, 255);
+}
+
+.icon + .icon {
+  margin-left: 1rem;
 }

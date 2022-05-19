@@ -3,11 +3,11 @@ import HeroNav from "./HeroNav";
 
 const Hero = () => {
   return (
-    <div className={classes.hero}>
+    <section className={classes.hero}>
       <h1 className={classes.title}>Kacper Barabasz</h1>
       <p className={classes.sub_header}>Junior Front-end Developer</p>
       <HeroNav />
-    </div>
+    </section>
   );
 };
 
