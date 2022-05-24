@@ -1,0 +1,9 @@
+.header {
+  margin: 3rem 0 1rem;
+  font-size: 8rem;
+  color: var(--main-text-color);
+}
+
+.dot {
+  color: var(--main-light-blue);
+}

@@ -1,14 +1,21 @@
-.hello {
-  font-size: 8rem;
-  color: var(--main-text-color);
-}
-
-.dot {
-  color: var(--main-light-blue);
+.about {
+  margin-bottom: 2rem;
 }
 
 .about_me {
   color: var(--main-text-color);
   width: 50vw;
   font-size: 1.55rem;
+}
+
+.sub_paragraph {
+  font-weight: 500;
+  margin: 2rem 0;
+  font-size: 1.8rem;
+  color: var(--main-light-blue);
+}
+
+.more {
+  font-size: 1.8rem;
+  color: var(--main-text-color);
 }

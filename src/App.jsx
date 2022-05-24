@@ -5,7 +5,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Header from "./components/header/Header";
+import Header from "./components/general/header/Header";
 
 const App = () => {
   return (

@@ -1,7 +1,11 @@
+import SectionHeader from "../../utilities/SectionHeader";
+
 const ExperienceSection = () => {
   return (
-    <div>ExperienceSection</div>
-  )
-}
+    <section>
+      <SectionHeader>Doświadczenie</SectionHeader>
+    </section>
+  );
+};
 
-export default ExperienceSection
+export default ExperienceSection;
