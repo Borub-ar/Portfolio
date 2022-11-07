@@ -24,3 +24,10 @@ body {
 ::selection {
   background-color: rgb(230, 120, 162);
 }
+
+p,
+h1,
+h2,
+h3 {
+  color: var(--main-text-color);
+}

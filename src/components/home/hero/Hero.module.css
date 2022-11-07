@@ -1,14 +1,12 @@
 .title {
   text-align: center;
   font-size: 7rem;
-  color: var(--main-text-color);
 }
 
 .sub_header {
     text-align: center;
     font-size: 2rem;
     font-weight: 100;
-    color: var(--main-text-color);
 }
 
 .hero {

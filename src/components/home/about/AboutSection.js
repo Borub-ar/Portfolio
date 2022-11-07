@@ -4,7 +4,7 @@ import classes from "./AboutSection.module.css";
 const AboutSection = () => {
   return (
     <section className={classes.about}>
-      <SectionHeader>Hello</SectionHeader>
+      <SectionHeader>Cześć</SectionHeader>
       
       <p className={classes.about_me}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec

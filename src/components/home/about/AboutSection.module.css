@@ -3,7 +3,6 @@
 }
 
 .about_me {
-  color: var(--main-text-color);
   width: 50vw;
   font-size: 1.55rem;
 }
@@ -17,5 +16,4 @@
 
 .more {
   font-size: 1.8rem;
-  color: var(--main-text-color);
 }
