@@ -1,13 +1,32 @@
-import classes from "./Hero.module.css";
+import styled from "styled-components";
 import HeroNav from "./HeroNav";
+
+const HeroSection = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  & h1 {
+    text-align: center;
+    font-size: 7rem;
+  }
+
+  & p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+  }
+`;
 
 const Hero = () => {
   return (
-    <section className={classes.hero}>
-      <h1 className={classes.title}>Kacper Barabasz</h1>
-      <p className={classes.sub_header}>Junior Front-end Developer</p>
+    <HeroSection>
+      <h1>Kacper Barabasz</h1>
+      <p>Junior Front-end Developer</p>
       <HeroNav />
-    </section>
+    </HeroSection>
   );
 };
 

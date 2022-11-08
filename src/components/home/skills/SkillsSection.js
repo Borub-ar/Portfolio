@@ -1,9 +1,7 @@
-import SectionHeader from "../../utilities/SectionHeader"
+import SectionHeader from "../../utilities/SectionHeader";
 
 const SkillsSection = () => {
-  return (
-    <SectionHeader>Umiejętności</SectionHeader>
-  )
-}
+  return <SectionHeader title='Umiejętności' />;
+};
 
-export default SkillsSection
+export default SkillsSection;

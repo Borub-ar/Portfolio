@@ -1,11 +1,20 @@
-import classes from "./SectionHeader.module.css";
+import styled from "styled-components";
+
+const Header = styled.h2`
+  margin: 3rem 0 1rem;
+  font-size: 8rem;
+
+  & span {
+    color: var(--main-light-blue);
+  }
+`;
 
 const SectionHeader = (props) => {
   return (
-    <h2 className={classes.header}>
-      {props.children}
-      <span className={classes.dot}>.</span>
-    </h2>
+    <Header>
+      {props.title}
+      <span>.</span>
+    </Header>
   );
 };
 

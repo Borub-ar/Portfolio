@@ -1,13 +1,27 @@
-import classes from "./HeroNav.module.css";
+import styled from "styled-components";
+
+const Navigation = styled.div`
+  .hero_nav {
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--main-text-color);
+  }
+
+  & span {
+    color: var(--main-light-blue);
+  }
+`;
 
 const HeroNav = () => {
   return (
-    <div>
-      <p className={classes.hero_nav}>
-        O MNIE <span className={classes.slash}>/</span> PROJEKTY
-        <span className={classes.slash}>/</span> KONTAKT
+    <Navigation>
+      <p className='hero_nav'>
+        O MNIE <span>/</span> PROJEKTY
+        <span>/</span> KONTAKT
       </p>
-    </div>
+    </Navigation>
   );
 };
 
