@@ -22,8 +22,7 @@ const Nav = styled.nav`
     margin-left: 0;
     margin-bottom: 6px;
     border-radius: 4px;
-    transition: 0.3s ease width, 0.3s ease margin-left, 0.3s ease margin-bottom,
-      0.3s ease background-color;
+    transition: 0.3s ease width, 0.3s ease margin-left, 0.3s ease margin-bottom, 0.3s ease background-color;
   }
 
   label div:first-child {
@@ -49,16 +48,12 @@ const Nav = styled.nav`
     margin-bottom: 3px;
     background-color: var(--main-light-blue);
   }
-`; 
+`;
 
 const Navigation = () => {
   return (
     <Nav>
-      <input
-        type='checkbox'
-        className="menu_checkbox"
-        id='menu_checkbox'
-      />
+      <input type='checkbox' className='menu_checkbox' id='menu_checkbox' />
       <label htmlFor='menu_checkbox'>
         <div></div>
         <div></div>

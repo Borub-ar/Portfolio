@@ -1,8 +1,7 @@
-import styled from "styled-components";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import Navigation from "../navigation/Navigation";
+import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Navigation from '../navigation/Navigation';
 
 const Head = styled.header`
   position: absolute;

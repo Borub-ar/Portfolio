@@ -1,8 +1,10 @@
-import styled from "styled-components";
-import SectionHeader from "../../utilities/SectionHeader";
+import styled from 'styled-components';
+import SectionHeader from '../../utilities/SectionHeader';
 
 const Section = styled.section`
   margin-bottom: 2rem;
+  height: 100vh;
+  scroll-snap-align: start;
 
   .about_me {
     width: 50vw;
@@ -27,12 +29,10 @@ const AboutSection = () => {
       <SectionHeader title='Cześć' />
 
       <p className='about_me'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec
-        ipsum lorem. Proin eget felis a lorem pulvinar imperdiet. Sed laoreet,
-        arcu sed vulputate condimentum, urna mauris mattis sem, ut tempor lectus
-        massa nec turpis. Nulla interdum tempus ipsum, ut efficitur turpis
-        mollis lacinia. Praesent efficitur ex sapien, quis convallis neque
-        mollis in. Phasellus nulla ex.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec ipsum lorem. Proin eget felis a lorem
+        pulvinar imperdiet. Sed laoreet, arcu sed vulputate condimentum, urna mauris mattis sem, ut tempor lectus massa
+        nec turpis. Nulla interdum tempus ipsum, ut efficitur turpis mollis lacinia. Praesent efficitur ex sapien, quis
+        convallis neque mollis in. Phasellus nulla ex.
       </p>
 
       <p className='sub_paragraph'>Poszukuje pracy jako FrontEnd Developer.</p>

@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import HeroNav from "./HeroNav";
+import styled from 'styled-components';
+import HeroNav from './heroComponents/HeroNav';
 
 const HeroSection = styled.section`
   display: flex;
@@ -7,6 +7,7 @@ const HeroSection = styled.section`
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  scroll-snap-align: start;
 
   & h1 {
     text-align: center;

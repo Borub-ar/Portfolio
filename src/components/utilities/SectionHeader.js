@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Header = styled.h2`
   margin: 3rem 0 1rem;
@@ -9,7 +9,7 @@ const Header = styled.h2`
   }
 `;
 
-const SectionHeader = (props) => {
+const SectionHeader = props => {
   return (
     <Header>
       {props.title}
